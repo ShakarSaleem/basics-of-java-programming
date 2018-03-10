@@ -1,5 +1,4 @@
 
-
 public class TwoDimentionalArray {
 
 	public static void main(java.lang.String[] args) {
@@ -15,7 +14,7 @@ public class TwoDimentionalArray {
 		}
 		for (int i = 0; i < 7; i++) {
 			for (int j = 0; j < 6; j++) {
-				System.out.print(x[i][j] + " ");
+				System.out.print("(-" + "|" + x[i][j] + "|" + "-)");
 			}
 			System.out.println();
 		}
